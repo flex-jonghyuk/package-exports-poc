@@ -19,9 +19,9 @@ yarn
 # 모든 패키지 빌드후 app-1도 빌드
 turbo run build --filter=app-1
 
-# 각 패키지의 dist를 전부 삭제
+# 각 패키지의 dist를 전부 삭제했는데도 dev가 된다!
 rm -rf packages/calculator/dist packages/date-formatter/dist packages/domain-date-formatter/dist 
-turbo run dev --filter=app-1 # 했는데도 dev가 된다!
+turbo run dev --filter=app-1
 ```
 
 ## 추후
