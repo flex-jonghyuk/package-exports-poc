@@ -1,6 +1,7 @@
 # module exports POC
 
-app이 아닌 각 패키지에 다음과 같은 exports 설정
+app이 아닌 각 패키지에 다음과 같은 exports를 설정한 상태에서,
+next dev시에는 development의 진입점을, next build시에는 production의 진입점을 찾는지 실험
 
 ```json
 {
