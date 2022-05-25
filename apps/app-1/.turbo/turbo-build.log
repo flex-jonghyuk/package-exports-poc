@@ -1,4 +1,7 @@
-[34mapp-1:build: [0mcache hit, replaying output [2mbe6c08d2046f9aa2[0m
+[34mapp-1:build: [0mcache hit, replaying output [2m76ac45aaedc8c557[0m
+[34mapp-1:build: [0mwarn  - You have enabled experimental feature(s).
+[34mapp-1:build: [0mwarn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use them at your own risk.
+[34mapp-1:build: [0m
 [34mapp-1:build: [0mwarn  - SWC minify release candidate enabled. https://nextjs.org/docs/messages/swc-minify-enabled
 [34mapp-1:build: [0minfo  - Checking validity of types...
 [34mapp-1:build: [0minfo  - Creating an optimized production build...
@@ -111,17 +114,17 @@
 [34mapp-1:build: [0m<i> [webpack.Progress] 14 ms setup
 [34mapp-1:build: [0m<s> [webpack.Progress] 10% building
 [34mapp-1:build: [0m<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 46% building 1/5 entries 128/135 dependencies 43/60 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 52% building 2/5 entries 135/138 dependencies 50/63 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 56% building 3/5 entries 137/138 dependencies 55/63 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 63% building 4/5 entries 141/142 dependencies 63/65 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 65% building 5/5 entries 216/216 dependencies 103/103 modules
-[34mapp-1:build: [0m<i> [webpack.Progress]  | 76 ms building > entries dependencies modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 21% building 1/5 entries 133/137 dependencies 47/63 modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 32% building 2/5 entries 133/137 dependencies 49/63 modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 43% building 3/5 entries 150/150 dependencies 63/71 modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 54% building 4/5 entries 150/150 dependencies 67/71 modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 64% building 5/5 entries 150/150 dependencies 71/71 modules
+[34mapp-1:build: [0m<i> [webpack.Progress]  | 449 ms building > entries dependencies modules
 [34mapp-1:build: [0m<s> [webpack.Progress] 65% building
 [34mapp-1:build: [0m<s> [webpack.Progress] 69% building finish
 [34mapp-1:build: [0m<s> [webpack.Progress] 69% building finish ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 69% building finish
-[34mapp-1:build: [0m<i> [webpack.Progress] 77 ms building
+[34mapp-1:build: [0m<i> [webpack.Progress] 449 ms building
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
@@ -235,9 +238,12 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing ReactLoadableManifest
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing NextJsBuildManifest
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 122 ms asset processing > TerserPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing CssMinimizerPlugin
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 23 ms asset processing > CssMinimizerPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing
+[34mapp-1:build: [0m<i> [webpack.Progress]  | 151 ms sealing > asset processing
 [34mapp-1:build: [0m<s> [webpack.Progress] 93% sealing after asset optimization
 [34mapp-1:build: [0m<s> [webpack.Progress] 93% sealing after asset optimization
 [34mapp-1:build: [0m<s> [webpack.Progress] 93% sealing recording
@@ -246,7 +252,7 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal WellKnownErrorsPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal
-[34mapp-1:build: [0m<i> [webpack.Progress] 45 ms sealing
+[34mapp-1:build: [0m<i> [webpack.Progress] 184 ms sealing
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit
@@ -270,13 +276,17 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown MemoryCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin process pending cache items
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin resolve build dependencies
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  |  | 36 ms IdleFileCachePlugin > resolve build dependencies
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin snapshot build dependencies resolving
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin snapshot build dependencies modules
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin serialize pack
-[34mapp-1:build: [0m<i> [webpack.Progress]  |  |  | 15 ms IdleFileCachePlugin > serialize pack
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  |  | 42 ms IdleFileCachePlugin > serialize pack
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin stored
-[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 15 ms shutdown > IdleFileCachePlugin
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 84 ms shutdown > IdleFileCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown
-[34mapp-1:build: [0m<i> [webpack.Progress]  | 15 ms cache > shutdown
-[34mapp-1:build: [0m<i> [webpack.Progress] 15 ms cache
+[34mapp-1:build: [0m<i> [webpack.Progress]  | 84 ms cache > shutdown
+[34mapp-1:build: [0m<i> [webpack.Progress] 84 ms cache
 [34mapp-1:build: [0m<s> [webpack.Progress] 100% 
 [34mapp-1:build: [0m
 [34mapp-1:build: [0m<s> [webpack.Progress] 0% 
@@ -378,28 +388,28 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 9% setup compilation
 [34mapp-1:build: [0m<s> [webpack.Progress] 10% building
 [34mapp-1:build: [0m<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 13% building 1/5 entries 7/20 dependencies 1/7 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 20% building 2/5 entries 20/21 dependencies 6/17 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 23% building 3/5 entries 26/27 dependencies 13/21 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 28% building 4/5 entries 28/29 dependencies 20/21 modules
-[34mapp-1:build: [0m<s> [webpack.Progress] 65% building 5/5 entries 103/103 dependencies 59/59 modules
-[34mapp-1:build: [0m<i> [webpack.Progress]  | 37 ms building > entries dependencies modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 20% building 1/5 entries 5/5 dependencies 1/5 modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 32% building 2/5 entries 17/22 dependencies 5/15 modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 43% building 3/5 entries 29/29 dependencies 16/24 modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 54% building 4/5 entries 31/31 dependencies 21/24 modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 64% building 5/5 entries 31/31 dependencies 24/24 modules
+[34mapp-1:build: [0m<i> [webpack.Progress]  | 93 ms building > entries dependencies modules
 [34mapp-1:build: [0m<s> [webpack.Progress] 65% building
 [34mapp-1:build: [0m<s> [webpack.Progress] 69% building finish
 [34mapp-1:build: [0m<s> [webpack.Progress] 69% building finish ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 69% building finish
-[34mapp-1:build: [0m<i> [webpack.Progress] 37 ms building
+[34mapp-1:build: [0m<i> [webpack.Progress] 94 ms building
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph TraceEntryPointsPlugin
-[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 38 ms finish module graph > TraceEntryPointsPlugin
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 31 ms finish module graph > TraceEntryPointsPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph FontStylesheetGatheringPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph AssignLibraryPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing finish module graph
-[34mapp-1:build: [0m<i> [webpack.Progress]  | 39 ms sealing > finish module graph
+[34mapp-1:build: [0m<i> [webpack.Progress]  | 32 ms sealing > finish module graph
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing plugins
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing plugins ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
@@ -500,10 +510,10 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing NextJsPagesManifest
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing FontStylesheetGatheringPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing TraceEntryPointsPlugin
-[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 52 ms asset processing > TraceEntryPointsPlugin
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 69 ms asset processing > TraceEntryPointsPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 92% sealing asset processing
-[34mapp-1:build: [0m<i> [webpack.Progress]  | 52 ms sealing > asset processing
+[34mapp-1:build: [0m<i> [webpack.Progress]  | 70 ms sealing > asset processing
 [34mapp-1:build: [0m<s> [webpack.Progress] 93% sealing after asset optimization
 [34mapp-1:build: [0m<s> [webpack.Progress] 93% sealing after asset optimization
 [34mapp-1:build: [0m<s> [webpack.Progress] 93% sealing recording
@@ -512,7 +522,7 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal WellKnownErrorsPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal
-[34mapp-1:build: [0m<i> [webpack.Progress] 99 ms sealing
+[34mapp-1:build: [0m<i> [webpack.Progress] 111 ms sealing
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit
@@ -536,13 +546,16 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown MemoryCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin process pending cache items
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin resolve build dependencies
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  |  | 34 ms IdleFileCachePlugin > resolve build dependencies
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin snapshot build dependencies resolving
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin snapshot build dependencies modules
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin serialize pack
-[34mapp-1:build: [0m<i> [webpack.Progress]  |  |  | 16 ms IdleFileCachePlugin > serialize pack
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin stored
-[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 17 ms shutdown > IdleFileCachePlugin
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 48 ms shutdown > IdleFileCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown
-[34mapp-1:build: [0m<i> [webpack.Progress]  | 17 ms cache > shutdown
-[34mapp-1:build: [0m<i> [webpack.Progress] 17 ms cache
+[34mapp-1:build: [0m<i> [webpack.Progress]  | 48 ms cache > shutdown
+[34mapp-1:build: [0m<i> [webpack.Progress] 48 ms cache
 [34mapp-1:build: [0m<s> [webpack.Progress] 100% 
 [34mapp-1:build: [0m
 [34mapp-1:build: [0m<s> [webpack.Progress] 0% 
@@ -772,8 +785,6 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal WellKnownErrorsPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 94% sealing after seal
-[34mapp-1:build: [0m<i> [webpack.Progress]  | 33 ms sealing > after seal
-[34mapp-1:build: [0m<i> [webpack.Progress] 35 ms sealing
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit ProfilingPlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 95% emitting emit
@@ -797,8 +808,16 @@
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown MemoryCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin process pending cache items
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin resolve build dependencies
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  |  | 21 ms IdleFileCachePlugin > resolve build dependencies
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin snapshot build dependencies resolving
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin snapshot build dependencies modules
+[34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin serialize pack
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown IdleFileCachePlugin stored
+[34mapp-1:build: [0m<i> [webpack.Progress]  |  | 27 ms shutdown > IdleFileCachePlugin
 [34mapp-1:build: [0m<s> [webpack.Progress] 99% cache shutdown
+[34mapp-1:build: [0m<i> [webpack.Progress]  | 27 ms cache > shutdown
+[34mapp-1:build: [0m<i> [webpack.Progress] 27 ms cache
 [34mapp-1:build: [0m<s> [webpack.Progress] 100% 
 [34mapp-1:build: [0m
 [34mapp-1:build: [0minfo  - Compiled successfully
@@ -808,13 +827,13 @@
 [34mapp-1:build: [0minfo  - Finalizing page optimization...
 [34mapp-1:build: [0m
 [34mapp-1:build: [0mPage                                       Size     First Load JS
-[34mapp-1:build: [0m┌ ○ /                                      7.12 kB        82.3 kB
+[34mapp-1:build: [0m┌ ○ /                                      6.75 kB          82 kB
 [34mapp-1:build: [0m├   └ css/149b18973e5508c7.css             655 B
 [34mapp-1:build: [0m├   /_app                                  0 B            75.2 kB
 [34mapp-1:build: [0m├ ○ /404                                   180 B          75.4 kB
 [34mapp-1:build: [0m└ λ /api/hello                             0 B            75.2 kB
 [34mapp-1:build: [0m+ First Load JS shared by all              75.2 kB
-[34mapp-1:build: [0m  ├ chunks/framework-ab1b276307cefeb2.js   45.2 kB
+[34mapp-1:build: [0m  ├ chunks/framework-81e2b89b944e0442.js   45.2 kB
 [34mapp-1:build: [0m  ├ chunks/main-e238d2366fdc354c.js        28.7 kB
 [34mapp-1:build: [0m  ├ chunks/pages/_app-69972de3b30f043a.js  501 B
 [34mapp-1:build: [0m  ├ chunks/webpack-34c76af51fb9f015.js     760 B

@@ -13,14 +13,15 @@ app이 아닌 각 패키지에 다음과 같은 exports 설정
 ## 실험순서
 
 ```shell
+# 의존성 설치
 yarn
 
 # 모든 패키지 빌드후 app-1도 빌드
 turbo run build --filter=app-1
 
 # 각 패키지의 dist를 전부 삭제
-rmdir packages/calculator/dist packages/date-formatter/dist packages/domain-date-formatter/dist
-yarn dev # 했는데도 dev가 된다!
+rm -rf packages/calculator/dist packages/date-formatter/dist packages/domain-date-formatter/dist 
+turbo run dev --filter=app-1 # 했는데도 dev가 된다!
 ```
 
 ## 추후

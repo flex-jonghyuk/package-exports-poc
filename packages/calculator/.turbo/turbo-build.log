@@ -1,13 +1,13 @@
-[32m@max-poc/calculator:build: [0mcache hit, replaying output [2m1a09f876c6dc2b32[0m
-[32m@max-poc/calculator:build: [0m[36m
-[32m@max-poc/calculator:build: [0m[1m./index.ts[22m → [1mdist[22m...[39m
-[32m@max-poc/calculator:build: [0m(1): index.ts
-[32m@max-poc/calculator:build: [0m┌────────────────────────────┐
-[32m@max-poc/calculator:build: [0m│                            │
-[32m@max-poc/calculator:build: [0m│   [32m[1mBundle Name: [22m[39m [33mindex.js[39m   │
-[32m@max-poc/calculator:build: [0m│   [32m[1mBundle Size: [22m[39m [33m155 B[39m      │
-[32m@max-poc/calculator:build: [0m│   [32m[1mMinified Size: [22m[39m [33m128 B[39m    │
-[32m@max-poc/calculator:build: [0m│   [32m[1mGzipped Size: [22m[39m [33m108 B[39m     │
-[32m@max-poc/calculator:build: [0m│                            │
-[32m@max-poc/calculator:build: [0m└────────────────────────────┘
-[32m@max-poc/calculator:build: [0m[32mcreated [1mdist[22m in [1m35ms[22m[39m
+[35m@max-poc/calculator:build: [0mcache hit, replaying output [2mf75c23bc3bc72447[0m
+[35m@max-poc/calculator:build: [0m[36m
+[35m@max-poc/calculator:build: [0m[1m./index.ts[22m → [1mdist[22m...[39m
+[35m@max-poc/calculator:build: [0m(1): index.ts
+[35m@max-poc/calculator:build: [0m┌────────────────────────────┐
+[35m@max-poc/calculator:build: [0m│                            │
+[35m@max-poc/calculator:build: [0m│   [32m[1mBundle Name: [22m[39m [33mindex.js[39m   │
+[35m@max-poc/calculator:build: [0m│   [32m[1mBundle Size: [22m[39m [33m155 B[39m      │
+[35m@max-poc/calculator:build: [0m│   [32m[1mMinified Size: [22m[39m [33m128 B[39m    │
+[35m@max-poc/calculator:build: [0m│   [32m[1mGzipped Size: [22m[39m [33m108 B[39m     │
+[35m@max-poc/calculator:build: [0m│                            │
+[35m@max-poc/calculator:build: [0m└────────────────────────────┘
+[35m@max-poc/calculator:build: [0m[32mcreated [1mdist[22m in [1m36ms[22m[39m

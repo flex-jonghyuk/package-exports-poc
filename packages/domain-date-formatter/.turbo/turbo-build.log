@@ -1,51 +1,51 @@
-[34m@max-poc/domain-date-formatter:build: [0mcache hit, replaying output [2m4ff42e4bb77f2f31[0m
-[34m@max-poc/domain-date-formatter:build: [0m[36m
-[34m@max-poc/domain-date-formatter:build: [0m[1m./index.ts[22m → [1mdist[22m...[39m
-[34m@max-poc/domain-date-formatter:build: [0m(1): index.ts
-[34m@max-poc/domain-date-formatter:build: [0m(2): ../date-formatter/index.ts
-[34m@max-poc/domain-date-formatter:build: [0m(3): ../date-formatter/src/index.ts
-[34m@max-poc/domain-date-formatter:build: [0m(4): ../date-formatter/src/isoFormatter.ts
-[34m@max-poc/domain-date-formatter:build: [0m(6): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/getHours/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(7): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/format/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/requiredArgs/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getTimezoneOffsetInMilliseconds/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/protectedTokens/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/toInteger/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/format/longFormatters/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/format/formatters/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(23): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/toDate/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(23): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/isValid/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(23): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(28): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/subMilliseconds/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(30): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCDayOfYear/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(30): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCISOWeekYear/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(31): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCWeek/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(33): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/addLeadingZeros/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(33): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCISOWeek/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCWeekYear/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/format/lightFormatters/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/formatLong/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/formatDistance/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/formatRelative/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/localize/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/match/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/isDate/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/addMilliseconds/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/startOfUTCISOWeek/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/startOfUTCWeekYear/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/startOfUTCWeek/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/startOfUTCISOWeekYear/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/_lib/buildFormatLongFn/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/_lib/buildLocalizeFn/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/_lib/buildMatchFn/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/_lib/buildMatchPatternFn/index.js
-[34m@max-poc/domain-date-formatter:build: [0m(39): ../calculator/index.ts
-[34m@max-poc/domain-date-formatter:build: [0m┌──────────────────────────────┐
-[34m@max-poc/domain-date-formatter:build: [0m│                              │
-[34m@max-poc/domain-date-formatter:build: [0m│   [32m[1mBundle Name: [22m[39m [33mindex.js[39m     │
-[34m@max-poc/domain-date-formatter:build: [0m│   [32m[1mBundle Size: [22m[39m [33m34.5 KB[39m      │
-[34m@max-poc/domain-date-formatter:build: [0m│   [32m[1mMinified Size: [22m[39m [33m24.96 KB[39m   │
-[34m@max-poc/domain-date-formatter:build: [0m│   [32m[1mGzipped Size: [22m[39m [33m6.25 KB[39m     │
-[34m@max-poc/domain-date-formatter:build: [0m│                              │
-[34m@max-poc/domain-date-formatter:build: [0m└──────────────────────────────┘
-[34m@max-poc/domain-date-formatter:build: [0m[32mcreated [1mdist[22m in [1m264ms[22m[39m
+[33m@max-poc/domain-date-formatter:build: [0mcache hit, replaying output [2md9063d464f18b591[0m
+[33m@max-poc/domain-date-formatter:build: [0m[36m
+[33m@max-poc/domain-date-formatter:build: [0m[1m./index.ts[22m → [1mdist[22m...[39m
+[33m@max-poc/domain-date-formatter:build: [0m(1): index.ts
+[33m@max-poc/domain-date-formatter:build: [0m(2): ../date-formatter/index.ts
+[33m@max-poc/domain-date-formatter:build: [0m(3): ../date-formatter/src/index.ts
+[33m@max-poc/domain-date-formatter:build: [0m(4): ../date-formatter/src/isoFormatter.ts
+[33m@max-poc/domain-date-formatter:build: [0m(6): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/getHours/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(7): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/format/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/requiredArgs/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getTimezoneOffsetInMilliseconds/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/protectedTokens/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/toInteger/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/format/longFormatters/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/toDate/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/isValid/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(16): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/format/formatters/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(23): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(28): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/subMilliseconds/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(30): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCISOWeekYear/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(31): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCISOWeek/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(32): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCWeek/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/addLeadingZeros/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCWeekYear/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/formatDistance/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/format/lightFormatters/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/formatLong/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/formatRelative/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/getUTCDayOfYear/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/localize/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/en-US/_lib/match/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(34): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/isDate/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/addMilliseconds/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/startOfUTCISOWeek/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/startOfUTCWeek/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/startOfUTCISOWeekYear/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/_lib/startOfUTCWeekYear/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/_lib/buildFormatLongFn/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/_lib/buildLocalizeFn/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/_lib/buildMatchPatternFn/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(38): ../../.yarn/cache/date-fns-npm-2.28.0-c19c5add1b-a0516b2e4f.zip/node_modules/date-fns/esm/locale/_lib/buildMatchFn/index.js
+[33m@max-poc/domain-date-formatter:build: [0m(39): ../calculator/index.ts
+[33m@max-poc/domain-date-formatter:build: [0m┌──────────────────────────────┐
+[33m@max-poc/domain-date-formatter:build: [0m│                              │
+[33m@max-poc/domain-date-formatter:build: [0m│   [32m[1mBundle Name: [22m[39m [33mindex.js[39m     │
+[33m@max-poc/domain-date-formatter:build: [0m│   [32m[1mBundle Size: [22m[39m [33m34.5 KB[39m      │
+[33m@max-poc/domain-date-formatter:build: [0m│   [32m[1mMinified Size: [22m[39m [33m24.96 KB[39m   │
+[33m@max-poc/domain-date-formatter:build: [0m│   [32m[1mGzipped Size: [22m[39m [33m6.25 KB[39m     │
+[33m@max-poc/domain-date-formatter:build: [0m│                              │
+[33m@max-poc/domain-date-formatter:build: [0m└──────────────────────────────┘
+[33m@max-poc/domain-date-formatter:build: [0m[32mcreated [1mdist[22m in [1m263ms[22m[39m
